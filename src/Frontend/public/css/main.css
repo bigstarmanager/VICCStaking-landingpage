@@ -1,0 +1,489 @@
+@font-face {
+	font-family: "Poppins";
+	src: url(../fonts/Poppins/Poppins-Light.ttf);
+}
+
+@font-face {
+	font-family: "Goldplay-normal";
+	src: url(../fonts/Goldplay/LatinotypeGoldplayLight.otf);
+}
+
+@font-face {
+	font-family: "Goldplay-bold";
+	src: url(../fonts/Goldplay/GoldplayAltMedium.woff);
+}
+
+body,
+html,
+div,
+p,
+span {
+	padding: 0;
+	margin: 0;
+}
+
+.font-pop {
+	font-family: "Poppins";
+}
+
+.font-gold-normal {
+	font-family: "Goldplay-normal";
+}
+
+.font-gold-bold {
+	font-family: "Goldplay-bold";
+}
+
+.page-title-label-layout {
+	margin-top: -6rem;
+	padding: 2rem 0;
+}
+
+.page-title-label-layout h3 {
+	font-size: 2rem;
+	font-weight: 600;
+	line-height: 1rem;
+	margin-bottom: 1.5rem;
+}
+
+/******** Roadmap page CSS ************/
+.roadmap-container {
+	font-size: 11px;
+}
+
+.roadmap-content-layout {
+	max-width: 840px;
+	width: 100%;
+}
+
+.roadmap-block-layout {
+	background: rgb(254, 215, 174);
+	padding: 0 0.5rem;
+	width: 20rem;
+	height: 11rem;
+}
+
+.roadmap-block-title {
+	font-size: 1rem;
+	font-weight: 600;
+	line-height: 1rem;
+	margin-bottom: 0.5rem;
+}
+
+.roadmap-block-row1-layout {
+	margin-left: 0rem;
+}
+
+.roadmap-block-row2-layout {
+	margin-right: 0rem;
+}
+
+.roadmap-block-list-layout {
+	list-style: disc;
+}
+
+.roadmap-block-list-layout li {
+	margin-left: 0.8rem;
+}
+
+.roadmap-block-number-layout {
+	height: 100%;
+}
+
+.roadmap-block-number-label-layout {
+	background: rgb(231, 117, 5);
+	font-size: 2rem;
+	font-weight: 600;
+	line-height: 1rem;
+	padding-top: 1rem;
+	margin-bottom: -0.5rem;
+	margin-left: -2.5rem;
+}
+
+.linked-line-right-layout {
+	margin-left: -0.5rem;
+}
+
+.link-line-leftside-layout,
+.link-line-rightside-layout {
+	font-size: 1.5rem;
+	font-weight: 600;
+	color: rgb(0, 44, 83);
+	letter-spacing: 0rem;
+	margin-left: -0.1rem;
+}
+
+.linked-circle-leftside-layout,
+.linked-circle-rightside-layout {
+	color: rgb(0, 44, 83);
+	background: rgb(0, 44, 83);
+	margin-left: -0.1rem;
+	margin-top: 0.1rem;
+}
+
+.tokenomics-card {
+	background: #fff;
+	width: 20rem;
+	min-height: 13rem;
+	max-height: 50rem;
+}
+
+/********** Tokenomics CSS **************/
+.tokenomics-container-layout {
+	background: rgb(250, 248, 249);
+}
+
+/********** Homepage CSS **************/
+.top-layout {
+	margin: auto;
+	background-color: #0c0241;
+	height: 100vh;
+	overflow: hidden;
+	position: relative;
+}
+
+.main-container-box {
+	margin: 0 auto;
+	max-width: 1440px;
+	width: 100%;
+}
+
+.bg-effect-1 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.bg-effect-2 {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+
+.top-container {
+	height: calc(100vh - 100px);
+	margin-top: 50px;
+	padding: 30px 40px;
+}
+
+.greeting-layout h2 {
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 72px;
+	line-height: 82px;
+	letter-spacing: -2px;
+	color: #ffffff;
+}
+
+.greeting-layout h2.highlighted {
+	color: #fa02ff;
+}
+
+.greeting-description-layout {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 36px;
+	letter-spacing: 0.5px;
+}
+
+.main-button-theme {
+	border-radius: 50px;
+	padding: 10px 25px;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 32px;
+	line-height: 43px;
+}
+
+.gradient-button-bg {
+	background: linear-gradient(93.49deg, #fa02ff 1.54%, rgba(88, 71, 255, 0) 112.54%);
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.border-pink {
+	border: 2px solid #fa02ff;
+}
+
+button.border-pink:focus {
+	outline: 1px solid #fa02ff;
+}
+
+button.gradient-button-bg:focus {
+	outline: 1px solid #fa02ff;
+}
+
+.right-panel-bg-layout {
+	background-image: url("/images/vcc-token.png");
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.semi-transparent-bg {
+	background: radial-gradient(100% 177.18% at 0% 5.41%, rgba(255, 255, 255, 0.49) 0%, rgba(255, 255, 255, 0.07) 100%);
+	backdrop-filter: blur(2rem);
+	border-radius: 2.5rem;
+}
+
+.presale-card-body {
+	border-radius: 40px;
+	overflow: hidden;
+}
+
+.presale-card-footer {
+	padding: 20px 10px;
+	color: #100344;
+	background: linear-gradient(91.68deg, #fa02ff 0%, #5847ff 105.34%);
+	text-align: center;
+}
+
+.presale-title-layout {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 60px;
+	line-height: 36px;
+	letter-spacing: 0.5px;
+	color: #ffffff;
+}
+
+.presale-amount-layout {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 42px;
+	line-height: 38px;
+	color: #e0e0e0;
+	letter-spacing: 0.5px;
+}
+
+.token-sold-label-layout {
+	font-size: 20px;
+	line-height: 38px;
+	text-align: center;
+	letter-spacing: 0.5px;
+	color: #e0e0e0;
+}
+
+.elapsed-datetime-value-layout {
+	font-weight: 500;
+	font-size: 70px;
+	line-height: 36px;
+	letter-spacing: 0.5px;
+}
+
+.elapsed-datetime-label-layout {
+	font-weight: 500;
+	font-size: 25px;
+	line-height: 36px;
+	letter-spacing: 0.5px;
+	color: #e0e0e0;
+}
+
+.presale-duration-comment1-layout {
+	font-size: 23px;
+	line-height: 36px;
+	text-align: center;
+	letter-spacing: 0.5px;
+}
+
+.presale-duration-comment2-layout {
+	font-size: 20px;
+	line-height: 36px;
+	text-align: center;
+	letter-spacing: 0.5px;
+}
+
+.staking-main-layout {
+	background: #0c0241;
+	height: 100vh;
+	overflow: auto;
+}
+
+@media (max-width: 1280px) {
+	.greeting-layout h2 {
+		font-size: 60px;
+	}
+	.greeting-description-layout {
+		font-size: 20px;
+	}
+	.main-button-theme {
+		font-size: 25px;
+		line-height: 25px;
+	}
+	.right-panel-bg-layout {
+		margin-top: 50px;
+		padding: 70px;
+	}
+	.presale-duration-comment1-layout {
+		font-size: 16px;
+	}
+	.presale-duration-comment2-layout {
+		font-size: 14px;
+	}
+	.presale-title-layout {
+		font-size: 48px;
+	}
+	/* .tokenomics-card {
+		width: 14rem;
+	} */
+}
+
+@media (max-width: 1024px) {
+	.right-panel-bg-layout {
+		padding: 100px;
+	}
+	.top-layout {
+		height: 100%;
+	}
+	.top-container {
+		height: 100%;
+	}
+	.greeting-layout h2 {
+		font-size: 70px;
+	}
+	.greeting-description-layout {
+		font-size: 26px;
+	}
+	.main-button-theme {
+		font-size: 25px;
+		line-height: 25px;
+	}
+	.right-panel-bg-layout {
+		margin-top: 50px;
+		padding: 70px;
+	}
+	.presale-duration-comment1-layout {
+		font-size: 16px;
+	}
+	.presale-duration-comment2-layout {
+		font-size: 14px;
+	}
+	.presale-title-layout {
+		font-size: 48px;
+	}
+	/* .tokenomics-card {
+		width: 14rem;
+	} */
+}
+
+@media (max-width: 768px) {
+	.greeting-layout h2 {
+		font-size: 60px;
+	}
+	.greeting-description-layout {
+		font-size: 20px;
+	}
+	.presale-duration-comment1-layout {
+		font-size: 20px;
+	}
+	.presale-duration-comment2-layout {
+		font-size: 16px;
+	}
+	.footer-title-text {
+		font-size: 20px !important;
+	}
+	.buy-vicc-button {
+		font-size: 16px !important;
+	}
+	/* .tokenomics-card {
+		width: 18rem;
+	} */
+	.roadmap-block-left {
+		justify-content: start !important;
+	}
+	.roadmap-block-right {
+		justify-content: end !important;
+	}
+
+	.roadmap-content-layout {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+
+@media (max-width: 425px) {
+	.roadmap-block-left {
+		justify-content: center !important;
+	}
+	.roadmap-block-right {
+		justify-content: center !important;
+	}
+	.footer-logo-box {
+		justify-content: center;
+	}
+	.responive-margin {
+		margin-bottom: 200px !important;
+	}
+	.staking-main-layout {
+		height: 100%;
+	}
+	.top-content {
+		flex-direction: column;
+	}
+	.top-container {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.greeting-layout h2 {
+		font-size: 40px;
+		line-height: 55px;
+	}
+	.greeting-description-layout {
+		font-size: 14px;
+		line-height: 25px;
+	}
+	.main-button-theme {
+		font-size: 15px;
+		line-height: 15px;
+	}
+	.right-panel-bg-layout {
+		margin-top: 10px;
+		padding: 35px;
+	}
+	.presale-title-layout,
+	.presale-amount-layout {
+		font-size: 25px;
+	}
+	.token-sold-label-layout {
+		font-size: 16px;
+		line-height: 20px;
+	}
+	.elapsed-datetime-value-layout {
+		font-size: 30px;
+		line-height: 20px;
+	}
+	.elapsed-datetime-label-layout {
+		font-size: 14px;
+		line-height: 14px;
+	}
+	.presale-duration-comment2-layout {
+		font-size: 10px;
+		line-height: 15px;
+	}
+	.presale-duration-comment1-layout {
+		font-size: 12px;
+		line-height: 15px;
+	}
+	.presale-card-top {
+		padding: 15px 25px 8px !important;
+	}
+}
+
+@media (max-width: 375px) {
+	.right-panel-bg-layout {
+		margin-top: 0px;
+		padding: 40px;
+	}
+	.presale-duration-comment1-layout {
+		font-size: 10px;
+		line-height: 15px;
+	}
+	.presale-duration-comment2-layout {
+		font-size: 8px;
+		line-height: 15px;
+	}
+	.presale-amount-layout {
+		line-height: 25px;
+	}
+}
